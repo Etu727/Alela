@@ -1,0 +1,94 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url('gym-background.jpg') no-repeat center center/cover;
+    color: #333;
+}
+
+/* Navigation styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #013220;
+    color: #FFFDD0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 2;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #FFFDD0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Exercise container styles */
+.exercise-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 60px; /* To avoid overlap with fixed nav */
+}
+
+.exercise {
+    background: #013220;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #FFFDD0;
+}
+
+.exercise img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.exercise h3 {
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.exercise p {
+    margin: 10px 0;
+}
+
+/* Footer styles */
+footer {
+    background: #013220;
+    color: #FFFDD0;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
